@@ -1,0 +1,6 @@
+{
+    "runtime": {
+        "majorVersion": "8"
+    },
+    "command": "java -jar accs-spring-cloud-stream-kafka-producer.jar --server.port=$PORT"
+	}

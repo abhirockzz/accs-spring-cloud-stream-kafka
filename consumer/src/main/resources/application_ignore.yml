@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    stream:
+      bindings:
+        output:
+          destination: ${OEHCS_TOPIC:ticktock}
+      kafka:
+        binder:
+          brokers: ${OEHCS_EXTERNAL_CONNECT_STRING:localhost}
+          zkNodes: ${OEHCS_EXTERNAL_CONNECT_STRING:localhost}
+          defaultZkPort: 2181
+          defaultBrokerPort: 9092
+server:
+  port: 0

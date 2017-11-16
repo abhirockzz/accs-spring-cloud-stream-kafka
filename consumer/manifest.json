@@ -1,0 +1,7 @@
+{
+    "runtime": {
+        "majorVersion": "8"
+    },
+	"type":"worker",
+    "command": "java -jar accs-spring-cloud-stream-kafka-consumer.jar"
+	}

@@ -1,0 +1,10 @@
+	{
+	  "memory": "1G",
+	  "instances": 2,
+	  "services": [
+		{
+		  "name": "kafka-on-cloud",
+		  "type": "OEHPCS"
+		}
+	  ]
+	}

@@ -18,4 +18,4 @@
 
 ## For details
 
-- check out the blog - [Spring Cloud Stream and Kafka based microservices on Oracle Cloud]()
+- check out the blog - [Spring Cloud Stream and Kafka based microservices on Oracle Cloud](https://medium.com/oracledevs/spring-cloud-stream-and-kafka-based-microservices-on-oracle-cloud-9889732149a)
